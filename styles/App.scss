@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  transition: .65s;
+}
+
+body{ 
+  background: #fff;
+  overflow-x: hidden;
+}
+#btnhide{
+  display: none;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.nav{
+  height: 60px;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  margin-left: 20%;
+  width: 100%;
+  display: inline-block;
+  z-index: 12;
+  background: cyan;
+}
+
+/* .sidebar2{
+  background: red;
+  position: relative;
+  flex: 4;
+} */
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding: 0 40px;
+  margin-top: 60px;
+}
+
+.row a{
+  text-decoration: none;
+  color: black;
+}
+
+.card{
+  background: #fff;
+  width: 23%;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px;
+  transition: .5s;
+  color: #2F4F4F;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 4px 5px 25px #111;
+}
+
+.card img{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+  width: 100%;
+}
+.card h1{
+  font-size: 19px;
+  padding: 13px;
+}
+.card p{
+  font-weight: lighter;
+  padding: 17px;
+  font-size: 13px;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  background: cyan;
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+}
+
+#sidebar{
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  background: #2e86de;
+  transform: translateX(0px);
+  transition: .65s;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.sidebar-btn{
+  height: 22px;
+  width: 22px;
+  z-index: 11;
+  cursor: pointer;
+}
+
+/* #toggle:checked ~ .sidebar-btn > .spinner.top{
+  transform: rotate(-45deg);
+  margin-top: 7px;
+}
+
+#toggle:checked ~ .sidebar-btn > .spinner.middle{
+  opacity: 0;
+}
+
+#toggle:checked ~ .sidebar-btn > .spinner.bottom{
+  transform: rotate(45deg);
+  margin-top: -8.5px;
+} */
+
+@media screen and (max-width: 1024px){
+  .card{
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .card{
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .card h1{
+    font-size: 15px;
+  }
+  .card p{
+    font-size: 12px;
+  }
+}
