@@ -7,13 +7,13 @@ import Sidebar from "./components/Sidebar";
 import { connect } from 'react-redux';
 
 
-const Home = (props) => {
+const Home = () => {
   return (
     <>
       <Head />    
       <div className="cont">
           <Header />
-          <div style={{marginLeft : props.margin}}>
+          <div>
                <div className="row">
                   {
                     data.map((val,i) => {
@@ -44,10 +44,4 @@ const Home = (props) => {
   );
 };
 
-const mapStateToProps = state => {
-  return{
-    margin : state.margin
-  }
-}
-
-export default connect(mapStateToProps)(Home);
+export default Home;

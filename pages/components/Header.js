@@ -3,53 +3,58 @@ import Link from 'next/link';
 import { connect } from 'react-redux';
 
 
-const Header = (props) => {
+const Header = () => {
 
 
 	const [t, changet] = useState("translateX(0px)");
 
 	const change = () => {
-		if(props.margin == "20%"){
+		if(t == "translateX(0px)"){
 			changet("translateX(-100%)");
-			props.dec();
 		}
 		else{
 			changet("translateX(0px)");
-			props.inc();
 		}
 	}
 
 	return(
 		<>
-			<div style={{marginLeft : props.margin}} className="nav"> 
-
-				<h1>Header</h1>
+			<div className="nav"> 
 				<input type="checkbox" id="btnhide" />
-				<label for="btnhide" className="sidebar-btn" onClick={change} >☰</label>
-				
+				<label htmlFor="btnhide" onClick={change} className="sidebar-btn">☰</label>
+				<img className="logo" src="logo.svg" />
+				<a>Home</a>
+				<a>Blog</a>				
 			</div>
 
 			<div style={{transform : t}} id="sidebar">
+				<a onClick={change} id="close"><label>✖</label></a>
+
+				<div className="side-heading">
+					<h1>Color Palettes</h1>
+				</div>
+				<ul>
+					<li className="active">Home</li>
+					<li>Contact</li>
+				</ul>
+				<div className="side-heading">
+					<h1>Color Palettes</h1>
+				</div>
 				<ul>
 					<li>Home</li>
 					<li>Contact</li>
 				</ul>
+				<div className="side-heading">
+					<h1>Color Palettes</h1>
+				</div>
+				<ul>
+					<li>Home</li>
+					<li>Contact</li>
+				</ul>								
 			</div>
 		</>
 	);
 }
 
-const mapStateToProps = state => {
-	return{
-		margin : state.margin
-	}
-}
 
-const mapDispatchToProps = dispatch => {
-	return{
-		inc: () => dispatch({type: 'INC'}),
-		dec: () => dispatch({type: 'DEC'})
-	}
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Header); 
+export default Header; 
