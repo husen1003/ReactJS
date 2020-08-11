@@ -20,11 +20,17 @@ const Header = () => {
 	return(
 		<>
 			<div className="nav"> 
-				<input type="checkbox" id="btnhide" />
-				<label htmlFor="btnhide" onClick={change} className="sidebar-btn">☰</label>
-				<img className="logo" src="logo.svg" />
-				<a>Home</a>
-				<a>Blog</a>				
+				<div className="nav-logo">
+					<input type="checkbox" id="btnhide" />
+					<label htmlFor="btnhide" onClick={change} className="sidebar-btn">☰</label>
+					<img className="logo" src="logo.svg" />
+				</div>	
+				<div className="nav-link">
+					<a>Home</a>
+					<a>Blog</a>	
+					<a>About Us</a>
+					<a>Contact Us</a>	
+				</div>		
 			</div>
 
 			<div style={{transform : t}} id="sidebar">
