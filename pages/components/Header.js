@@ -21,13 +21,17 @@ const Header = () => {
 		<>
 			<div className="nav"> 
 				<div className="nav-logo">
-					<input type="checkbox" id="btnhide" />
+					<input type="checkbox" className="hidden" id="btnhide" />
 					<label htmlFor="btnhide" onClick={change} className="sidebar-btn">☰</label>
 					<img className="logo" src="logo.svg" />
 				</div>	
 				<div className="nav-link">
-					<a>Home</a>
-					<a>Blog</a>	
+	                <Link href="/">
+	                  <a>Home</a>
+	                </Link>
+	                <Link href="/blogs">
+	                  <a>Blogs</a>
+	                </Link>
 					<a>About Us</a>
 					<a>Contact Us</a>	
 				</div>		

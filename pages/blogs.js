@@ -12,7 +12,7 @@ const Blog = () => {
         OGtitle="This is a blog"
       />
       <Header />
-      <main>
+      <main className="mt-12">
           <h1>This is a blog page Created by Husain</h1>
           <Link href="/">
             <a>Return to home page</a>

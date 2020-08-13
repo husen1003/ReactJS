@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Head />    
-      <div className="cont">
+      <div className="flex justify-between flex-wrap">
           <Header />
           <div>
                <div className="row">
@@ -24,6 +24,7 @@ const Home = () => {
                           img = {data[i].img}
                           heading = {data[i].heading}
                           disc = {data[i].disc}
+                          chip = {data[i].chip}
                           link = {data[i].link}
                         />
                       );
