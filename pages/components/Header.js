@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 const Header = () => {
 
 
-	const [t, changet] = useState("translateX(0px)");
+	const [t, changet] = useState("translateX(-100%)");
 
 	const change = () => {
 		if(t == "translateX(0px)"){
@@ -44,22 +44,21 @@ const Header = () => {
 					<h1>Color Palettes</h1>
 				</div>
 				<ul>
-					<li className="active">Home</li>
-					<li>Contact</li>
+					<li className="active">Material</li>
+					<li>Flat UI</li>
+					<li>Social</li>
+					<li>Fluent</li>
+					<li>Metro</li>
+					<li>HTML</li>
 				</ul>
 				<div className="side-heading">
-					<h1>Color Palettes</h1>
+					<h1>More</h1>
 				</div>
 				<ul>
-					<li>Home</li>
-					<li>Contact</li>
-				</ul>
-				<div className="side-heading">
-					<h1>Color Palettes</h1>
-				</div>
-				<ul>
-					<li>Home</li>
-					<li>Contact</li>
+					<li>Material Icons</li>
+					<li>Unicodes</li>
+					<li>Color Picker</li>
+					<li>Blog</li>
 				</ul>								
 			</div>
 		</>

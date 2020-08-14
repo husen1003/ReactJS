@@ -27,7 +27,7 @@ const data = [
 					heading : "Best White Mechanical Keyboards in 2020 – Reviews & FAQs",
 					disc : "The mechanical keyboards are still significant even after the advent of innovative keyboards. It not only gives a unique experience of relishing the old-fashioned keyboards but guarantees typing efficiency. The […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 2,
@@ -35,7 +35,7 @@ const data = [
 					heading : "Best White Gaming Monitor of 2020 – Reviews & FAQs",
 					disc : "Are you a Game Freak? Worried about purchasing the best white gaming monitor? All the Gaming enthusiasts will buy Gaming Monitors, which would promise them a fun-filled and immersive gaming […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 3,
@@ -43,7 +43,7 @@ const data = [
 					heading : "Best Bluetooth Speakers with Lights in 2020 – Reviews & FAQs",
 					disc : "Audio speakers have become one of the essential needs of our generation because of the convenience it provides to us by helping us in multi-tasking. With the help of audio […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 4,
@@ -51,7 +51,7 @@ const data = [
 					heading : "10 Best Solar Powered Bluetooth Speakers – Reviews & FAQs",
 					disc : "Climate change is real. It’s happening now and fast. There has been a surge in the use of the electronic device with the advancement in technology. This has put a […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 5,
@@ -59,7 +59,7 @@ const data = [
 					heading : "Building Streaming PC in 2020 – Guide & FAQs",
 					disc : "Computer game streaming is more popular than at any time in recent memory. The advent of TwitchTV and Hitbox has enabled live communication while playing computer games. It has additionally […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 6,
@@ -67,7 +67,7 @@ const data = [
 					heading : "Best Mechanical Gaming Keyboards in 2020 – Reviews & FAQs",
 					disc : "Ever stop and consider how your normal, ordinary PC console’s keyboard doesn’t have the similar satisfying “click” that it used to? All things considered, a few makers still manufacture mechanical […]",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 7,
@@ -75,7 +75,7 @@ const data = [
 					heading : "Material Design Colors",
 					disc : "Click-To-Copy color palette of Material Design Guidelines developed by Google.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 8,
@@ -83,7 +83,7 @@ const data = [
 					heading : "Flat UI Colors",
 					disc : "Click-To-Copy color palette of very popular Flat UI Colors.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 9,
@@ -91,7 +91,7 @@ const data = [
 					heading : "Fluent Design Colors",
 					disc : "Click-To-Copy color palette of very popular Microsoft's Fluent Design Colors.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 10,
@@ -99,7 +99,7 @@ const data = [
 					heading : "Material Design Colors",
 					disc : "Click-To-Copy color palette of Material Design Guidelines developed by Google.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 11,
@@ -107,7 +107,7 @@ const data = [
 					heading : "Social Colors",
 					disc : "Click-To-Copy color palette of famous Social Media sites.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 12,
@@ -115,7 +115,7 @@ const data = [
 					heading : "Metro Colors",
 					disc : "Click-To-Copy color palette of Metro Colors given by Microsoft Windows.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 13,
@@ -123,7 +123,7 @@ const data = [
 					heading : "HTML Colors",
 					disc : "Click-To-Copy palette of 140 named colors which are supported by modern browsers.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 14,
@@ -131,7 +131,7 @@ const data = [
 					heading : "Color Picker",
 					disc : "Simple & minimal full screen color picker to quickly choose the colors.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 15,
@@ -139,7 +139,7 @@ const data = [
 					heading : "Material Icons",
 					disc : "Set of Material Design Icons with quick option of downloading in various formats.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 16,
@@ -147,7 +147,7 @@ const data = [
 					heading : "Unicode Characters",
 					disc : "Unicode Characters supported by modern browsers which can be used as icons.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 17,
@@ -155,7 +155,7 @@ const data = [
 					heading : "Material UI Blog",
 					disc : "Checkout our blog for latest updates related to graphics, colors, tools & web.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 				{
 					id : 18,
@@ -163,7 +163,7 @@ const data = [
 					heading : "Fluent Design Colors",
 					disc : "Click-To-Copy color palette of very popular Microsoft's Fluent Design Colors.",
 					link : "https://www.materialui.co/htmlcolors",
-					chip : "blog"
+					chip : "Blog"
 				},
 			 ];
 

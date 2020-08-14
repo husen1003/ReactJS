@@ -11,10 +11,14 @@ const Home = () => {
   return (
     <>
       <Head />    
-      <div className="flex justify-between flex-wrap">
+      <div className="font-sans flex justify-between flex-wrap">
           <Header />
           <div>
-               <div className="row">
+          <div className="mt-32 text-center">
+              <h1 className="text-4xl font-semibold">From the blog</h1>
+              <p className="text-gray-500 w-1/3 mx-auto">Set of Material Design Icons with quick option of downloading in various formats.</p>
+          </div>
+               <div className="row mt-6">
                   {
                     data.map((val,i) => {
                       return(
@@ -31,10 +35,6 @@ const Home = () => {
                     })
                   }
                </div>  
-                <h1>Hello from the Next.js</h1>
-                <Link href="/blogs">
-                  <a>Blogs</a>
-                </Link>
 
                 <footer>Made with ❤ by Burhan</footer>
 
