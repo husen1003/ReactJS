@@ -45,11 +45,11 @@ const Header = () => {
 				</div>
 				<ul>
 					<li className="active">Material</li>
-					<li>Flat UI</li>
+					<Link href="/flatui-colors"><li>Flat UI</li></Link>
 					<li>Social</li>
-					<li>Fluent</li>
-					<li>Metro</li>
-					<li>HTML</li>
+					<Link href="/fluent-colors"><li>Fluent</li></Link>
+					<Link href="/metrocolors"><li>Metro</li></Link>
+					<Link href="/htmlcolors"><li>HTML</li></Link>
 				</ul>
 				<div className="side-heading">
 					<h1>More</h1>

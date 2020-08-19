@@ -36,11 +36,13 @@ body{
   @apply flex flex-wrap justify-around px-10;}
 
 .row a{
-  @apply no-underline text-black;}
+  @apply no-underline text-black;
+}
 
 .card{
   @apply w-full bg-white my-8 rounded-lg text-gray-600 transform overflow-hidden cursor-pointer;
-  box-shadow: 2px 3px 10px;}
+  box-shadow: 1px 5px 8px;
+}
 
 .card:hover{
   @apply scale-105;
