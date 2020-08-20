@@ -44,7 +44,7 @@ const Header = () => {
 					<h1>Color Palettes</h1>
 				</div>
 				<ul>
-					<li className="active">Material</li>
+					<Link href="/material-colors"><li className="active">Material</li></Link>
 					<Link href="/flatui-colors"><li>Flat UI</li></Link>
 					<li>Social</li>
 					<Link href="/fluent-colors"><li>Fluent</li></Link>
